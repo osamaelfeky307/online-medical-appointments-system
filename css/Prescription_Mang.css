@@ -1,0 +1,128 @@
+/* CSS for Doctor Dashboard */
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Doctor section */
+.doctor-section {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.add-prescription,
+.prescription-list,
+.appointment-list {
+  margin-bottom: 20px;
+}
+
+/* Add Prescription form */
+.add-prescription form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.add-prescription label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-prescription input[type="date"],
+.add-prescription input[type="text"],
+.add-prescription select {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.add-prescription input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-prescription input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Prescription List */
+.prescription-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.prescription-list th,
+.prescription-list td {
+  padding: 8px;
+  text-align: left;
+}
+
+.prescription-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.prescription-list tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.prescription-list a {
+  margin-right: 10px;
+  color: #0645ad;
+  transition: color 0.3s ease;
+}
+
+.prescription-list a:hover {
+  color: #0366d6;
+}
+
+/* Booked Appointments */
+.appointment-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.appointment-list th,
+.appointment-list td {
+  padding: 8px;
+  text-align: left;
+}
+
+.appointment-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.appointment-list tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.appointment-list a {
+  margin-right: 10px;
+  color: #0645ad;
+  transition: color 0.3s ease;
+}
+
+.appointment-list a:hover {
+  color: #0366d6;
+}
+.dynamic-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}

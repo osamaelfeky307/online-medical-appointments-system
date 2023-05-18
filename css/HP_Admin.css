@@ -1,0 +1,87 @@
+/* Basic styles */
+
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+  }
+  
+  h1, h2, h3 {
+	margin: 20px 0;
+  }
+  
+  table {
+	margin: auto;
+	border-collapse: collapse;
+  }
+  
+  th, td {
+	padding: 10px;
+	border: 1px solid #ccc;
+  }
+  
+  th {
+	background-color: #f2f2f2;
+  }
+  
+  label {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+  }
+  
+  input[type=text], input[type=email], input[type=password], select, textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+  }
+  
+  input[type=submit] {
+	background-color: green;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #4CAF50;
+  }
+  
+  /* Additional styles */
+  
+  h1 {
+	font-size: 36px;
+  }
+  
+  h2 {
+	font-size: 24px;
+  }
+  
+  h3 {
+	font-size: 20px;
+  }
+  
+  table {
+	width: 100%;
+  }
+  
+  td a {
+	color: green;
+  }
+  
+  td a:hover {
+	text-decoration: underline;
+  }
+  
+  form {
+	width: 50%;
+	margin: auto;
+  }
+  
+  textarea {
+	height: 100px;
+  }
