@@ -89,7 +89,7 @@
                             Login
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="LogIns/Login_Doc.php">Login as a Doctor</a></li>
+                            <li><a href="LogIns/Login_Doc.php">Login as a Dooctor</a></li>
                             <li><a href="LogIns/Login_Patient.php">Login as a Patient</a></li>
                             <li><a href="LogIns/Login_Admin.php">Login as an Administrator</a></li>
                         </ul>
